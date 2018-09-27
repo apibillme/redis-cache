@@ -15,5 +15,5 @@ RUN apk --no-cache add ca-certificates
 WORKDIR /root/
 COPY --from=0 /go/src/github.com/apibillme/rediscache/rediscache .
 ENTRYPOINT ["./rediscache"]
-CMD [ "-ttl", "128", "-keycap", "500", "-tcp", "8000", "address", "localhost:6379" ]
+CMD [ "--ttl", "360", "--keycap", "500", "--tcp", "8000", "--address", "localhost:6379" ]
 EXPOSE 8000
