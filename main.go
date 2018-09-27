@@ -62,7 +62,7 @@ func server(keyCapacity int, globalTTL time.Duration, address string, port strin
 	wp := workerpool.New(100)
 	cached := cache.New(keyCapacity, cache.WithTTL(globalTTL*time.Second))
 
-	app.Get("/", func(ctx *fasthttp.RequestCtx, next func(error)) {
+	app.Get("/redis", func(ctx *fasthttp.RequestCtx, next func(error)) {
 		key := cast.ToString(ctx.QueryArgs().Peek("key"))
 		wp.SubmitWait(func() {
 			val, err := getRedisKey(address, cached, key)
