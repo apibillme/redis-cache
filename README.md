@@ -1,4 +1,4 @@
-# redis-cache - provides an HTTP JSON caching proxy for Redis
+# redis-cache - HTTP JSON caching proxy for Redis
 
 [![Go Report](https://goreportcard.com/badge/github.com/apibillme/redis-cache)](https://goreportcard.com/report/github.com/apibillme/redis-cache) [![GolangCI](https://golangci.com/badges/github.com/apibillme/redis-cache.svg)](https://golangci.com/r/github.com/apibillme/redis-cache) [![Travis](https://travis-ci.org/apibillme/redis-cache.svg?branch=master)](https://travis-ci.org/apibillme/redis-cache#) [![codecov](https://codecov.io/gh/apibillme/redis-cache/branch/master/graph/badge.svg)](https://codecov.io/gh/apibillme/redis-cache) ![License](https://img.shields.io/github/license/apibillme/redis-cache.svg) ![Maintenance](https://img.shields.io/maintenance/yes/2018.svg) [![GoDoc](https://godoc.org/github.com/apibillme/redis-cache?status.svg)](https://godoc.org/github.com/apibillme/redis-cache)
 
