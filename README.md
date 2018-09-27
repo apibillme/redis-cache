@@ -49,4 +49,4 @@ func main() {
 ```
 
 ## Not Implemented
-- Redis RPC - took too long to write the parser and dealing with `net` and parallel concurrent processing was something I didn't solve.
+- Redis RPC - took too long to write the [parser](https://github.com/apibillme/redis-rpc) and dealing with `net` package and parallel concurrent processing was something I didn't solve.
