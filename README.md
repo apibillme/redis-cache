@@ -4,10 +4,10 @@
 
 ## Architecture Overview (what the code does)
 
-> The proxy webserver listens on the base URL ("/") for GET requests with the param ("key").
-> Up to 100 client requests at once will run using parallel concurrent processing while the rest will be queued. The client connection remains open until their request is processed.
-> The client request key/value for the GET request is cached using a fixed capacity, global expiry, LRU eviction cache.
-> Less than 100 LOC.
+- The proxy webserver listens on the base URL ("/") for GET requests with the param ("key").
+- Up to 100 client requests at once will run using parallel concurrent processing while the rest will be queued. The client connection remains open until their request is processed.
+- The client request key/value for the GET request is cached using a fixed capacity, global expiry, LRU eviction cache.
+- Less than 100 LOC.
 
 ## Make and Run
 - note: flags are optional
