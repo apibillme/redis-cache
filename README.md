@@ -17,6 +17,15 @@ make test
 ./redis-cache --ttl 360 --keycap 128 --port 8000 --address localhost:6379
 ```
 
+## Docker
+```bash
+docker-compose up
+```
+
+## Complexity of Caching - Big-O
+[O(1)](https://github.com/apibillme/cache#benchmark)
+
+
 ## Example
 
 ```go
