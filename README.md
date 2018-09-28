@@ -26,7 +26,7 @@ docker-compose up
 [O(1)](https://github.com/apibillme/cache#benchmark)
 
 
-## Example
+## Example Client
 
 ```go
 import(
