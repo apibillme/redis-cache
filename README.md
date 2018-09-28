@@ -51,7 +51,7 @@ func main() {
 ## Load Testing
 [redis-cache-benchmark](https://github.com/apibillme/redis-cache-benchmark)
 
-The first key set expires after one second and the test ran for 5 seconds - run against docker-compose in this repo.
+The first key set expires after one second and the test ran for 5 seconds - run against docker-compose in this repo on local Mac.
 
 ```
 Total Requests: 5000
