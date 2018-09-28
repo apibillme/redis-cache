@@ -48,5 +48,21 @@ func main() {
 }
 ```
 
+## Load Testing
+[redis-cache-benchmark](https://github.com/apibillme/redis-cache-benchmark)
+
+The first key set expires after one second and the test ran for 5 seconds - run against docker-compose in this repo.
+
+```
+Total Requests: 5000
+Requests Per Second: 1000
+Success Ratio: 100%
+Max: 183.256182ms
+Mean: 15.357077ms
+50th percentile: 730.348µs
+95th percentile: 99.38549ms
+99th percentile: 149.668733ms
+```
+
 ## Not Implemented
 - Redis RPC - took too long to write the [parser](https://github.com/apibillme/redis-rpc) and dealing with `net` package and parallel concurrent processing was something I didn't solve.
